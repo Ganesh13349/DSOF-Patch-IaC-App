@@ -1,6 +1,10 @@
 resource "aws_s3_bucket" "insecure-bucket" {
   bucket = "insecure-bucket"
 }
+resource "aws_s3_bucket_versioning" "aws_s3_bucket_versioning" {
+  
+}
+
 
 # resource "aws_s3_bucket_public_access_block" "insecure-bucket" {
 #   block_public_acls       = true
